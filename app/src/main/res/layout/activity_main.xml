@@ -24,4 +24,10 @@
             android:text="Show"
             android:id="@+id/btn"/>
 
+    <Button
+            android:id="@+id/chuyenManHinh"
+            android:text="Chuyển màn hình"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
 </LinearLayout>
