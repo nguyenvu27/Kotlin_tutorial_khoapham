@@ -25,6 +25,8 @@ class MainActivity : AppCompatActivity() {
 
         chuyenManHinh.setOnClickListener{
             var intent : Intent = Intent(this, Main2Activity::class.java )
+            intent.putExtra("data", "Nguyễn Vũ")
+            intent.putExtra("data2", 1999)
             startActivity(intent)
         }
 
